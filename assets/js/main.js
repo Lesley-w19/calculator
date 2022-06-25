@@ -11,7 +11,11 @@
 // };
 // calculator();
 
+
 let displayResult = document.querySelector('input[name="displayResult"]');
+
+
+// ----------- Per your index.html layout -----------
 
 const calcNumbers = (numValue) => {
   document.querySelector('input[name="displayResult"]').value += numValue;
