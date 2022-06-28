@@ -28,6 +28,11 @@ body, html {
 .buttons {
 	padding: 20px 20px 0 20px;
 }
+.c{
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
 .row {
 	width: 280px;
 	float: left;

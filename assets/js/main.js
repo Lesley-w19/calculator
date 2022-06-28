@@ -11,9 +11,7 @@
 // };
 // calculator();
 
-
 let displayResult = document.querySelector('input[name="displayResult"]');
-
 
 // ----------- Per your index.html layout -----------
 
@@ -26,5 +24,8 @@ calcNumbers();
 
 const clear = () => {
   document.querySelector('input[name="displayResult"]').value = "";
+  document.querySelector(".clear").addEventListener("click", () => {
+    document.querySelector('input[name="displayResult"]').value = "";
+  });
 };
 clear();
