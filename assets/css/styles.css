@@ -30,8 +30,12 @@ body, html {
 }
 .c{
 	display: flex;
-	justify-content: end;
-	align-items: center;
+		align-items: center;
+	justify-content: space-between;
+
+}
+.c .del{
+	font-size: 24px;
 }
 .row {
 	width: 280px;

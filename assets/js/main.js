@@ -29,3 +29,13 @@ const clear = () => {
   });
 };
 clear();
+
+const del = () => {
+  document.querySelector(".del").addEventListener("click", () => {
+    const val = document
+      .querySelector('input[name="displayResult"]')
+      .value.slice(0, -1);
+    document.querySelector('input[name="displayResult"]').value = val;
+  });
+};
+del();
